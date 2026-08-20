@@ -27,8 +27,3 @@ elif(user_choice == "Scissor"):
     else:
         print("User wins. Paper cut down in pices....")
 
-
-
-
-
-
