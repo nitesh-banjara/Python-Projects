@@ -1,0 +1,75 @@
+1. Your Python challenge for today
+You wanted one medium project and one longer project. I've selected two that build on your 
+existing Python knowledge and prepare you for Flask.
+
+
+
+
+
+
+
+
+
+Project 1: Personal Finance Manager
+Medium
+Estimated time: 60–90 minutes
+Build a command-line application that records income and expenses, tracks your balance, 
+and shows where your money goes.
+
+
+Requirements
+1. Display a menu: Add income, Add expense, View transactions, View summary, Exit.
+2. Store transactions in a list of dictionaries.
+3. Each transaction should contain an amount, category, description, and type.
+4. Validate amounts so users cannot enter invalid numbers or negative transaction amounts.
+5. Calculate total income, total expenses, and remaining balance.
+6. Display expenses grouped by category.
+7. Keep the menu running until the user chooses Exit.
+Concepts you'll practice: functions, loops, lists, dictionaries, conditionals, exception handling, 
+and calculations.
+
+
+
+
+
+
+
+
+
+
+Project 2: Inventory & Sales Management System
+Longer challenge
+Estimated time: 2–3 hours
+Build a small inventory system for a shop that manages stock and records sales.
+
+
+Requirements
+1. Add products with a unique ID, name, price, and stock quantity.
+2. Display all products in a readable table.
+3. Search for products by ID or name.
+4. Update product prices and stock quantities.
+5. Sell a product by ID and quantity.
+6. Prevent sales when stock is insufficient.
+7. Automatically reduce stock after a sale.
+8. Calculate each sale's total and maintain total revenue.
+9. Display low-stock products.
+10. Provide a menu that continues until the user exits.
+Stretch goals, only if you finish early:
+- Save and load inventory using a JSON file.
+- Store sales history.
+- Add a daily sales report.
+Concepts you'll practice: nested data structures, functions, validation, searching, updating 
+dictionaries, file handling, and modular code.
+
+How to approach them
+Don't ask me for the full solution before trying. You previously said you prefer hints before 
+complete answers, so we'll follow that.
+For each project:
+1. Write the requirements as comments.
+2. Sketch the menu.
+3. Write the data structure.
+4. Implement one feature at a time.
+5. Test invalid inputs and edge cases.
+6. Ask me for a hint when stuck, and show me your code when something breaks.
+Start with Project 1. You already have experience with an expense tracker, so this is an 
+extension rather than a completely new project. The inventory system will push you further.
